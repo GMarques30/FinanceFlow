@@ -30,4 +30,4 @@ jobs:
           path: target/*.jar
 
       - name: Run tests
-        run: mvn test -Dspring.profiles.active=test
+        run: mvn test
