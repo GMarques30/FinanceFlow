@@ -71,7 +71,9 @@ All API `endpoints`, `requests` and `responses` are listed here
 | `PUT /bills`            | Update a bill.       |
 | `DELETE /bills/:billId` | Delete a bill.       |
 <h3 id="get-auth-detail">GET /bills</h3>
+
 **Response**
+
 ```json
 {
   "billId": "71f0c188-9f71-4643-82e0-9c12823479ba",
@@ -82,8 +84,11 @@ All API `endpoints`, `requests` and `responses` are listed here
   "occurredAt": "10-2024"
 }
 ```
+
 <h3 id="post-auth-detail">POST /bills</h3>
+
 **Request**
+
 ```json
 {
   "amount": 100.00,
@@ -92,8 +97,11 @@ All API `endpoints`, `requests` and `responses` are listed here
   "occurredAt": "10-2024"
 }
 ```
+
 <h3 id="post-auth-detail">PUT /bills</h3>
+
 **Request**
+
 ```json
 {
   "billId": "71f0c188-9f71-4643-82e0-9c12823479ba",
@@ -103,11 +111,15 @@ All API `endpoints`, `requests` and `responses` are listed here
   "occurredAt": "10-2024"
 }
 ```
+
 <h3 id="post-auth-detail">DELETE /bills/:billId</h3>
+
 **Request**
+
 ```http
 http://localhost:8080/bills/71f0c188-9f71-4643-82e0-9c12823479ba
 ```
+
 <h2 id="collaborators">🤝 Collaborators</h2>
 Here are all the people who contributed to the project.
 
