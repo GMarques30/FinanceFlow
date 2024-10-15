@@ -1,0 +1,8 @@
+spring.application.name=FinanceFlow
+spring.sql.init.mode=always
+cors.allowed.origins=
+
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+
